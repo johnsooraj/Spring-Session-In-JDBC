@@ -42,6 +42,8 @@ A tutorial project for microservice system design, Here the session keeps in MyS
 
 ## To save sessions in custom DB, we need to create as SPRING_SESSION
 
+    > In Spring dependencys an sample SQL file can see, but the creation of the table is upto the user(developer). [check the 1 answers](https://stackoverflow.com/questions/37398905/spring-session-with-jdbc-configuration-table-test-spring-session-doesnt-exis).
+
 ```sql
 CREATE SCHEMA IF NOT EXISTS TESTDB;
 SET SCHEMA TESTDB;
