@@ -6,7 +6,7 @@ Spring Session, Spring Security and MySQL are the Key roles in this project.
 
 For save sessions in custom DB, we need to create as SPRING_SESSION
 
-```java
+```sql
 CREATE SCHEMA IF NOT EXISTS TESTDB;
 SET SCHEMA TESTDB;
 CREATE TABLE TESTDB.SPRING_SESSION (
