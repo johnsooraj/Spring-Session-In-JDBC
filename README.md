@@ -31,5 +31,14 @@ CONSTRAINT SPRING_SESSION_ATTRIBUTES_FK FOREIGN KEY (SESSION_PRIMARY_ID) REFEREN
 );
 ```
 
+Table looks like this
+![alt text](https://user-images.githubusercontent.com/23372515/88884577-8cd3d480-d254-11ea-9525-5f3c411f5cdb.png)
+
+To make a secure call, Use BASIC AUTH in posman, use username and password
+![alt text](https://user-images.githubusercontent.com/23372515/88884581-8e050180-d254-11ea-85d3-7ef51a8596c5.png)
+
+After a successfull reqeust, Spring will saves the sessionID in Mysql DB and same sessionID will be in our Cookies
+![alt text](https://user-images.githubusercontent.com/23372515/88884584-8e9d9800-d254-11ea-9163-60c4c2e6a40d.png)
+
 
  
